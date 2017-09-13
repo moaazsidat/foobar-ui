@@ -1,6 +1,6 @@
 {
   "name": "foobar-ui",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "private": false,
   "dependencies": {
     "autoprefixer": "7.1.2",
