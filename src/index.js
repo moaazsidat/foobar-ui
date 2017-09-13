@@ -1,11 +1,11 @@
 // @flow
 
-import React from 'react';
-import ReactDOM from 'react-dom';
-import App from './App';
-import Sum from './Sum';
-import registerServiceWorker from './registerServiceWorker';
+export { default as SumComponent } from './Sum';
+export { default as sum } from './util';
 
-ReactDOM.render(<Sum input={[1, 2]}/>, document.getElementById('root'));
-registerServiceWorker();
-    
+const Sums = {
+    sum,
+    SumComponent,
+}
+
+export default Sums
