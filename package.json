@@ -49,7 +49,6 @@
     "start": "node scripts/start.js",
     "build": "node scripts/build.js",
     "test": "node scripts/test.js --env=jsdom",
-    "prepublish": "npm run babel-prepublish && npm run flow-prepublish",
     "babel-prepublish": "babel src/ -d lib",
     "flow-prepublish": "flow-copy-source src lib"
   },
