@@ -1,11 +1,8 @@
 // @flow
 
 export { default as SumComponent } from './Sum';
-export { default as sum } from './util';
+export { default as sum } from './utils';
 
-const Sums = {
-    sum,
-    SumComponent,
-}
+const Sums = {}
 
 export default Sums
