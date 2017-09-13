@@ -1,8 +1,12 @@
+// @flow
+
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
+import Sum from './Sum';
 import registerServiceWorker from './registerServiceWorker';
 
-ReactDOM.render(<App />, document.getElementById('root'));
+ReactDOM.render(<Sum input={[1, 2]}/>, document.getElementById('root'));
 registerServiceWorker();
+    
